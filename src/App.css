@@ -1,0 +1,90 @@
+body{
+	background: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: 
+  #212121!important;
+}
+
+.MuiMenu-list{
+  background-color:  
+  #212121;
+}
+
+.MuiMenu-list{
+  color: #fff ;
+}
+
+
+.opacity-menu{
+  opacity: 0.7;
+}
+
+.phone-png{
+  padding-right: 15px;
+}
+
+.phone-color{
+  padding-left: 16px;
+  padding-right: 16px;
+  color: #fff;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.phone-color:hover{
+  color:
+  #006064;
+}
+
+
+.slider{
+  width: 100%;
+}
+.phone-color:before, a:after{
+  content: '';
+  background: 
+  #006064;
+  position: absolute;
+  width: 0;
+  height: 2px;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.phone-color:before{
+  top: 0;
+  left: 0;
+}
+
+.phone-color:after{
+  top: 100%;
+  right: 0;
+}
+
+.phone-color:hover:before, .phone-color:hover:after{
+  width: 100%;
+}
+
+
+.logo-6{
+  width: 120px;
+  height: 50px;
+
+}
